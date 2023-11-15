@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+    <title>Cookie-Consent</title>
+  </head>
+  <body>
+    <main>
+      <h1>
+        Learning to code? This is the most important thing you will ever read!
+      </h1>
+
+      <section>
+        <ul>
+          <li class="li__green">💰 Land a job with a 6 figure salary</li>
+          <li class="li__yellow">💻 Master JavaScript in 3 hours</li>
+          <li class="li__aqua">⚛️ Learn React in 10 minutes</li>
+          <li class="li__purple">☕ Be a NodeJS Dev by lunctime</li>
+        </ul>
+      </section>
+
+      <p class="learning__technique">
+        My subliminal learning technique worked for Mark Zuckerberg and Albert
+        Einstein, and it can work for you!
+      </p>
+
+      <img src="/images/car.jpg" alt="a car" />
+
+      <p class="description">
+        Want a great job in tech? Want a six-figure salary? Then you have come
+        to the right place. I am going to tell you all you need to know to get
+        all of that and much more, without you lifting a finger. You can learn
+        passively. Just sit back, close your eyes, and let the sound of my voice
+        make the code sink deep into your brain.
+      </p>
+
+      <div class="modal" id="modal">
+        <div class="close-modal-btn-container">
+          <button class="modal-close-btn" id="modal-close-btn" disabled>X</button>
+        </div>
+        <div class="modal-inner">
+          <h2>We ❤️ Your Data!</h2>
+          <p class="modal-text">
+            We have a strict policy on tracking and spamming: we'll definitely
+            track you, and we'll definitely spam you. To use this site, enter
+            your name and email address and accept our ridiculous terms and
+            conditions.
+          </p>
+        </div>
+
+        <form class="consent-form" action="">
+          <input
+            class="input-full-name"
+            type="text"
+            name="fullName"
+            placeholder="Enter your full name"
+            required
+          />
+          <input
+            class="input-e-mail"
+            type="email"
+            name="email"
+            placeholder="Enter your E-mail"
+            required
+          />
+
+          <div class="modal-choice-btns">
+            <button type="submit" class="modal-choice-accept-btn">
+              Accept
+            </button>
+            <button type="button" class="modal-choice-decline-btn">
+              Decline
+            </button>
+          </div>
+        </form>
+      </div>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
